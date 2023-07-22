@@ -1,5 +1,5 @@
 import React from "react";
-import "./AboutUs.css";
+
 import { aboutus1, aboutus2 } from "../assets/images";
 
 const AboutUs = () => {
@@ -18,12 +18,12 @@ const AboutUs = () => {
             or families, You can also organize a symbolic wedding ceremony here.
           </p>
         </div>
-        <div className="aboutus-image item">
+        <div className="item-image item">
           <img src={aboutus1} alt="" />
         </div>
       </div>
       <div className="flex gap column-reverse">
-        <div className="aboutus-image item">
+        <div className="item-image item">
           <img src={aboutus2} alt="" />
         </div>
         <div className="aboutus-text item">

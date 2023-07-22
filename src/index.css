@@ -54,8 +54,25 @@ body {
 .item {
   flex: 1 1 20rem;
 }
+.item-image {
+  max-width: 100%;
+  text-align: center;
+}
+.item-image img {
+  max-width: 100%;
+}
+
 .column-reverse {
   flex-wrap: wrap-reverse;
+}
+.button {
+  font-weight: bold;
+  font-family: var(--oswaldfont);
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  padding: 1rem 1.5rem;
+  border-radius: 0.4rem;
+  background-color: var(--blue-color);
 }
 p {
   color: #ffff;
