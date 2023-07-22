@@ -1,0 +1,25 @@
+.home {
+  background-image: url("../assets/homeimg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.8;
+}
+.homecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  font-family: var(--oswaldfont);
+}
+.maldives {
+  font-size: 9rem;
+  font-weight: bolder;
+  z-index: 999;
+}
+.homecontainer h2 {
+  font-size: 2rem;
+}
