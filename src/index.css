@@ -63,6 +63,12 @@ p {
   margin: 1rem 0rem;
 }
 @media screen and (max-width: 600px) {
+  .navbar {
+    justify-content: center;
+  }
+  .nav {
+    display: none;
+  }
   .maldives {
     font-size: 5rem;
   }
