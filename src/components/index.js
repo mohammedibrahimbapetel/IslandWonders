@@ -8,6 +8,7 @@ import Promo from "./Promo";
 import Reviews from "./Reviews";
 import Ourcontacts from "./Ourcontacts";
 import Footer from "./Footer";
+import TourCard from "./TourCard";
 export {
   Navbar,
   Home,
@@ -19,4 +20,5 @@ export {
   Reviews,
   Ourcontacts,
   Footer,
+  TourCard,
 };

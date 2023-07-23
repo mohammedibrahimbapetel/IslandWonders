@@ -38,9 +38,11 @@ body {
 .padding {
   padding: 3rem 9%;
 }
+.padding-top {
+  padding-top: 2rem;
+}
 .header {
   color: #ffff;
-
   font-family: var(--oswaldfont);
   font-size: 3rem;
 }
@@ -96,5 +98,11 @@ p {
   .homecontainer h2 {
     font-size: 1.8rem;
     color: #ffffff;
+  }
+  .header {
+    font-size: 2rem;
+  }
+  .promo-booking {
+    font-size: 0.8rem;
   }
 }
