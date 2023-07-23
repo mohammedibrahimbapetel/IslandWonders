@@ -36,7 +36,7 @@ body {
   background-image: linear-gradient(to right, #0b1d26, #0d222d);
 }
 .padding {
-  padding: 3rem 9%;
+  padding: 5rem 9% 5rem 9%;
 }
 .padding-top {
   padding-top: 2rem;
@@ -86,12 +86,6 @@ p {
   margin: 1rem 0rem;
 }
 @media screen and (max-width: 600px) {
-  .navbar {
-    justify-content: center;
-  }
-  .nav {
-    display: none;
-  }
   .maldives {
     font-size: 5rem;
   }
