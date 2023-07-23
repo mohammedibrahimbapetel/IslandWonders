@@ -1,5 +1,6 @@
 import React from "react";
 import "./Review.css";
+import { RiStarSFill } from "react-icons/ri";
 import { monica, abdul } from "../assets/images";
 const Reviews = () => {
   return (
@@ -15,7 +16,10 @@ const Reviews = () => {
           </div>
           <div className=" review-items">
             <h3 className="subheader">MONICA JONSON</h3>
-            <div className="stars"></div>
+            <div className="stars">
+              <RiStarSFill /> <RiStarSFill /> <RiStarSFill /> <RiStarSFill />{" "}
+              <RiStarSFill />
+            </div>
             <p>
               We selected a tour and quickly received polite assistance from the
               managers to choose the best option. Our villa provided wonderful
@@ -29,7 +33,10 @@ const Reviews = () => {
           </div>
           <div className="review-items">
             <h3 className="subheader">ABDUL MOHAMMED</h3>
-            <div className="stars"></div>
+            <div className="stars">
+              <RiStarSFill /> <RiStarSFill /> <RiStarSFill /> <RiStarSFill />{" "}
+              <RiStarSFill />
+            </div>
             <p>
               The friendly waiters, beautiful reef next to the island with a
               variety of fish, and no need for shoes! Just some clothes, and
