@@ -29,7 +29,7 @@
 .closed-menubar {
   font-weight: 800;
   cursor: pointer;
-  color: var(--white-color);
+  color: #ffff;
   position: absolute;
   top: 20px;
   right: 30px;
@@ -62,6 +62,6 @@
   }
   .bar {
     display: flex;
-    color: var(--white-color);
+    color: #ffff;
   }
 }
