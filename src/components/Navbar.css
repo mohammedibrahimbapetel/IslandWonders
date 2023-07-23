@@ -32,7 +32,8 @@
   color: var(--white-color);
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 30px;
+  font-size: 1.5rem;
 }
 .smallscreen-nav {
   position: fixed;
