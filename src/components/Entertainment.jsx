@@ -3,7 +3,7 @@ import { entertainment } from "../assets/images";
 
 const Entertainment = () => {
   return (
-    <div className="flex gap padding column-reverse">
+    <div className="flex gap padding column-reverse" id="entertainment">
       <div className=" item-image item">
         <img src={entertainment} alt="" />
       </div>

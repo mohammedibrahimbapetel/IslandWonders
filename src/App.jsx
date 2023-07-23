@@ -10,6 +10,7 @@ import {
   Promo,
   Reviews,
   Ourcontacts,
+  Footer,
 } from "./components/index";
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       <Promo />
       <Reviews />
       <Ourcontacts />
+      <Footer />
     </div>
   );
 };

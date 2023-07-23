@@ -18,6 +18,7 @@
   --white-color: #fffae9;
   --blue-color: #2d9b9a;
   --yellow-color: #e5c310;
+  --dark-color: #0b1d26;
 }
 
 a {
@@ -35,7 +36,7 @@ body {
   background-image: linear-gradient(to right, #0b1d26, #0d222d);
 }
 .padding {
-  padding: 4rem 9%;
+  padding: 3rem 9%;
 }
 .header {
   color: #ffff;
@@ -64,6 +65,9 @@ body {
 
 .column-reverse {
   flex-wrap: wrap-reverse;
+}
+.align-center {
+  text-align: center;
 }
 .button {
   font-weight: bold;

@@ -7,6 +7,7 @@ import Entertainment from "./Entertainment";
 import Promo from "./Promo";
 import Reviews from "./Reviews";
 import Ourcontacts from "./Ourcontacts";
+import Footer from "./Footer";
 export {
   Navbar,
   Home,
@@ -17,4 +18,5 @@ export {
   Promo,
   Reviews,
   Ourcontacts,
+  Footer,
 };
