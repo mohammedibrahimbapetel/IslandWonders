@@ -4,9 +4,9 @@ import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 import { map } from "../assets/images";
 const Ourcontacts = () => {
   return (
-    <div className="padding gap our-contacts flex">
+    <div className="padding gap our-contacts flex" id="contacts">
       <div className="item">
-        <h3 className="our-contact ">OUR CONTACTS</h3>
+        <h3 className="white-header ">OUR CONTACTS</h3>
         <p className="white-color">
           Smart Cafe, Yerima Street, Yola
           <br />

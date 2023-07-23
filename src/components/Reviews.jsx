@@ -3,7 +3,7 @@ import "./Review.css";
 import { monica, abdul } from "../assets/images";
 const Reviews = () => {
   return (
-    <div className="padding ">
+    <div className="padding " id="reviews">
       <div className="align-center review">
         <h1 className="header">REVIEWS</h1>
       </div>

@@ -4,5 +4,6 @@ import entertainment from "./entertainment.png";
 import monica from "./monica.png";
 import abdul from "./abdul.png";
 import map from "./map.png";
+import promo from "./promo.png";
 
-export { aboutus1, aboutus2, entertainment, monica, abdul, map };
+export { aboutus1, aboutus2, entertainment, monica, abdul, map, promo };
