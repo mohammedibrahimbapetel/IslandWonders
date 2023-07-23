@@ -15,7 +15,9 @@ const Navbar = () => {
           <a href="#tours">Tours</a>
           <a href="#entertainment">Entertainment </a>
         </div>
-        <div className="nav-island-wonders">Island Wonders</div>
+        <div className="nav-island-wonders">
+          <a href="#home"> Island Wonders</a>
+        </div>
         <div className="nav">
           <a href="#promo">Promo</a>
           <a href="#reviews">Reviews</a>
