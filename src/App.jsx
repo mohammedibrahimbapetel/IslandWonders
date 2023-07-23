@@ -4,7 +4,6 @@ import {
   Navbar,
   Home,
   AboutUs,
-  Gallery,
   Tours,
   Entertainment,
   Promo,
@@ -19,7 +18,7 @@ const App = () => {
       <Navbar />
       <Home />
       <AboutUs />
-      <Gallery />
+
       <Tours />
       <Entertainment />
       <Promo />
