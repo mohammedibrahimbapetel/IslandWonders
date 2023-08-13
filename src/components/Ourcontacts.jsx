@@ -18,7 +18,7 @@ const Ourcontacts = () => {
         </p>
         <div className="icons-container">
           <div className="icons">
-            <a href="">
+            <a href="#">
               <BsFacebook />
             </a>
           </div>
@@ -28,7 +28,7 @@ const Ourcontacts = () => {
             </a>
           </div>
           <div className="icons">
-            <a href="">
+            <a href="#">
               <BsInstagram />
             </a>
           </div>
