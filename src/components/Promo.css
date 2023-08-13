@@ -1,0 +1,47 @@
+.promo {
+  background-color: var(--white-color);
+  border-radius: 1.5rem;
+  max-width: 1200px;
+  margin: auto;
+  padding: 3rem 5%;
+}
+.promo-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.promo-booking {
+  text-align: left;
+  display: inline-flex;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: var(--dark-color);
+  transition: 0.5s ease;
+
+  font-weight: bold;
+  margin: 0.5rem 0rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+.date {
+  margin-right: 1.2rem;
+}
+
+.promo-booking:hover {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+
+.promo-text,
+.promo-image {
+  text-align: center;
+  margin: auto;
+  flex: 1 1 23rem;
+}
+
+.promo-image {
+  max-width: 100%;
+}
+.promo-image img {
+  max-width: 100%;
+}

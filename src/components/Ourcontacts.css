@@ -1,0 +1,32 @@
+.our-contacts {
+  margin: auto;
+  max-width: 1200px;
+  border-radius: 2rem;
+  background-color: var(--white-color);
+  color: var(--dark-color);
+}
+.white-header {
+  font-family: var(--oswaldfont);
+  font-size: 2.8rem;
+  color: var(--dark-color);
+}
+.white-color {
+  color: var(--dark-color);
+  font-weight: 600;
+}
+.map {
+  border-radius: 1.2rem;
+  max-width: 500px;
+}
+.map img {
+  max-width: 100%;
+  border-radius: 1.2rem;
+}
+.icons-container {
+  display: flex;
+}
+.icons {
+  color: var(--blue-color);
+  margin-right: 1.5rem;
+  font-size: 1.5rem;
+}

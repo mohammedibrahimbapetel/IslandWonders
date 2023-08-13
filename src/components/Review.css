@@ -1,0 +1,18 @@
+.review-image {
+  max-width: 100%;
+  border-radius: 1.5rem;
+}
+.review-image img {
+  max-width: 100%;
+  border-radius: 1.5rem;
+}
+.review-item {
+  flex: 1 1 15rem;
+}
+.review {
+  padding-bottom: 3rem;
+}
+.review-items {
+  margin: auto;
+  flex: 1 1 12rem;
+}

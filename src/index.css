@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Questrial&display=swap");
+:root {
+  --bg: linear-gradient(to right, #0b1d26, #0d222d);
+
+  --oswaldfont: "Oswald", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  /* Combination of linear and radial gradients */
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  --white-color: #ffff;
+  --blue-color: #2d9b9a;
+  --yellow-color: #e5c310;
+  --dark-color: #0b1d26;
+  color: var(--white-color);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+body {
+  background-image: linear-gradient(to right, #0b1d26, #0d222d);
+}
+.padding {
+  padding: 5rem 9% 5rem 9%;
+}
+.padding-top {
+  padding-top: 2rem;
+}
+.header {
+  color: #ffff;
+  font-family: var(--oswaldfont);
+  font-size: 3rem;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.gap {
+  gap: 2rem;
+}
+.item {
+  flex: 1 1 20rem;
+}
+.item-image {
+  max-width: 100%;
+  text-align: center;
+}
+.item-image img {
+  max-width: 100%;
+}
+
+.column-reverse {
+  flex-wrap: wrap-reverse;
+}
+.align-center {
+  text-align: center;
+}
+.button {
+  font-weight: bold;
+  font-family: var(--oswaldfont);
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  padding: 1rem 1.5rem;
+  border-radius: 0.4rem;
+  background-color: var(--blue-color);
+}
+p {
+  color: #ffff;
+  opacity: 0.8;
+  margin: 1rem 0rem;
+}
+@media screen and (max-width: 600px) {
+  .maldives {
+    font-size: 5rem;
+  }
+  .homecontainer h2 {
+    font-size: 1.8rem;
+    color: #ffffff;
+  }
+  .header {
+    font-size: 2rem;
+  }
+  .promo-booking {
+    font-size: 0.8rem;
+  }
+}
