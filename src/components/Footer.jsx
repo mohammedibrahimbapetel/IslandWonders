@@ -14,7 +14,7 @@ const Footer = () => {
     >
       <div style={{ margin: "0rem 1rem" }}>
         Site by{" "}
-        <a href="#" style={{ borderBottom: "1px solid #ffff" }}>
+        <a href="https://bapetel.vercel.app" style={{ borderBottom: "1px solid #ffff" }}>
           Mohammed Ibrahim
         </a>
       </div>
